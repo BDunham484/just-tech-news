@@ -1,0 +1,27 @@
+{
+  "name": "just-tech-news",
+  "version": "1.0.0",
+  "description": "A full-stack blog built using MySQL, Sequelize, Express.js, Node.js, JavaScript",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BDunham484/just-tech-news.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BDunham484/just-tech-news/issues"
+  },
+  "homepage": "https://github.com/BDunham484/just-tech-news#readme",
+  "start": "node server.js",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.21.3"
+  }
+}
