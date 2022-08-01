@@ -52,7 +52,7 @@ router.get('/:id', (req, res) => {
         })
         .catch(err => {
             console.log(err);
-            res.status(500).jsone(err);
+            res.status(500).json(err);
         });
 });
 
@@ -65,11 +65,11 @@ router.post('/', (req, res) => {
         email: req.body.email,
         password: req.body.password
     })
-        .then(dbUserData => res.json(dbUserData))
-        .catch(err => {
-            console.log(err);
-            res.status(500).json(err);
-        });
+    .then(dbUserData => res.json(dbUserData))
+    .catch(err => {
+        console.log(err);
+        res.status(500).json(err);
+    });
 });
 
 
